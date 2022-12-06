@@ -1,0 +1,28 @@
+@mixin btn{
+  padding: 10px 30px;
+  color: white;
+  background: red;
+  font-size: 18px;
+  font-weight: 400;
+  border-radius: 10px;
+}
+@mixin center{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+@mixin bs{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+@mixin sb{
+  display: flex;
+  align-items: center;
+  justify-content:space-evenly;
+}
+@mixin sa{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
